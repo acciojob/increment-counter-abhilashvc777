@@ -11,7 +11,7 @@ button.style.padding="10px 40px"
 button.style.fontSize="1em"
 p.style.fontSize="1.3em"
 button.addEventListener("click", ()=>{
-	p.textContent=count
 	alert(count)
 	count++
+	p.textContent=count
 })
