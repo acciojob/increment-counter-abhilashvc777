@@ -2,6 +2,8 @@
 const body = document.querySelector("body")
 const p = document.createElement("p")
 const button = document.createElement("button")
+p.setAttribute("id","counter")
+button.setAttribute("id","incrementBtn")
 body.appendChild(p)
 body.appendChild(button)
 let count = 0;
